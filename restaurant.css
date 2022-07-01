@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 *{
     margin:0;
     padding:0;
@@ -93,7 +95,7 @@ a {
     color: rgb(194, 189, 189);
 }
 
-.banner form {
+.banner a {
     display: block;
     background-color: white;
     padding: 1rem;
@@ -107,11 +109,6 @@ a {
     margin: 2rem;
     position: relative;
     text-align: center;
-}
-
-.banner form button {
-    background-color: inherit;
-    border: none;
 }
 
 /*Title*/
@@ -272,7 +269,7 @@ footer li a {
 
     /* Banner Buttons*/
 
-    .banner form {
+    .banner a {
         left: 60%;
     }
 
@@ -359,7 +356,7 @@ footer li a {
 
     /*Banner h1 und Buttons*/
 
-    .banner form {
+    .banner a {
         left: 35%;
         width: 12rem;
         font-size: 1.4rem;
@@ -377,6 +374,7 @@ footer li a {
     #galerie h1 {
         font-size: 4rem;
     }
+    
    /* Tisch reservieren*/
    .fill {
     width: 70%;

@@ -249,3 +249,10 @@ footer li img {
     font-size: 1.3rem;
 }
 }
+
+@media print {
+    header, 
+    footer {
+        display: none;
+    }
+}

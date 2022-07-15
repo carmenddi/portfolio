@@ -245,19 +245,6 @@ footer a {
     line-height: 7rem;
 }
 
-/*Big screens*/
-
-@media screen and (min-width: 1024px) {
-    html {
-        font-size: 18rem;
-    }
-
-    .wrapper {
-        width: 100%;
-
-    }
-}
-
 
 /*Tablet*/
 

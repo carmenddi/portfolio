@@ -193,17 +193,16 @@ footer a {
     padding: 1.5rem;
 }
 
-/*Big screens*/
+/*Big screen*/
 
-@media screen and (min-width: 1024px) {
-    html {
-        font-size: 18rem;
+@media screen and(min-width: 1024px) {
+    header {
+        background-image: url(images/portfolioBack1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
-
-    .wrapper {
-        width: 100%;
-
-    }
+    
 }
 
 /* Tablet */
@@ -216,7 +215,6 @@ html {
 
 /*Responsive Wrapper und Header*/
 .wrapper {
-    background-color: rgb(80, 76, 76);
     width: 100%;
 }
 
@@ -270,7 +268,6 @@ html {
 /* Responsive Wrapper und Header*/
 
 .wrapper {
-    background-color:rgb(80, 76, 76);
     width: 100%;
 }
 

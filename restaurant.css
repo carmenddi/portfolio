@@ -198,14 +198,6 @@ footer li a {
     font-size: 2rem;
 }
 
-/*Big screens*/
-
-@media screen and (min-width: 1024px) {
-    html {
-        font-size: 18rem;
-    }
-}
-
 
 /*Tablet*/
 

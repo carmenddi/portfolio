@@ -193,21 +193,9 @@ footer a {
     padding: 1.5rem;
 }
 
-/*Big screen*/
+/* Tablet and Desktop */
 
-@media screen and(min-width: 1024px) {
-    header {
-        background-image: url(images/portfolioBack1.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    
-}
-
-/* Tablet */
-
-@media screen and (min-width: 600px) and (max-width: 1023px) {
+@media screen and (min-width: 600px) and (max-width: 1279px) {
 
 html {
     font-size: 14px;

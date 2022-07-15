@@ -152,6 +152,14 @@ a:hover {
     text-decoration: underline;
 }
 
+/*Big screens*/
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 18rem;
+    }
+}
+
 /*Tablet and Smartphone*/
 @media only screen and (min-width: 479px) and (max-width: 1023px){
 

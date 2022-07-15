@@ -193,6 +193,19 @@ footer a {
     padding: 1.5rem;
 }
 
+/*Big screens*/
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 18rem;
+    }
+
+    .wrapper {
+        width: 100%;
+
+    }
+}
+
 /* Tablet */
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {

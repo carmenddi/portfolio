@@ -7,10 +7,10 @@
 } 
 
 body {
-    background-image: url(halfmoon/GetränkeBackground.jpg);
+    background-image: url(halfmoon/vino.png);
     background-repeat: repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 /*Header und Navigation */
